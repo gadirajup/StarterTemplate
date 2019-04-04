@@ -10,6 +10,9 @@
 		A4FC5DC22256646B007E6542 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FC5DC12256646B007E6542 /* AppDelegate.swift */; };
 		A4FC5DC42256646C007E6542 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FC5DC32256646C007E6542 /* HomeViewController.swift */; };
 		A4FC5DC92256646C007E6542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FC5DC82256646C007E6542 /* Assets.xcassets */; };
+		A4FC5DD822566659007E6542 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FC5DD722566659007E6542 /* ContainerController.swift */; };
+		A4FC5DDA22566668007E6542 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FC5DD922566668007E6542 /* MenuController.swift */; };
+		A4FC5DDC22566A33007E6542 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FC5DDB22566A33007E6542 /* Protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +21,9 @@
 		A4FC5DC32256646C007E6542 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A4FC5DC82256646C007E6542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4FC5DCD2256646C007E6542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4FC5DD722566659007E6542 /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+		A4FC5DD922566668007E6542 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		A4FC5DDB22566A33007E6542 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = StarterTemplate/Controllers/Protocols.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,7 @@
 		A4FC5DD322566494007E6542 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A4FC5DDB22566A33007E6542 /* Protocols.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -71,7 +78,9 @@
 		A4FC5DD4225664A1007E6542 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A4FC5DD722566659007E6542 /* ContainerController.swift */,
 				A4FC5DC32256646C007E6542 /* HomeViewController.swift */,
+				A4FC5DD922566668007E6542 /* MenuController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -159,8 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4FC5DDC22566A33007E6542 /* Protocols.swift in Sources */,
+				A4FC5DDA22566668007E6542 /* MenuController.swift in Sources */,
 				A4FC5DC42256646C007E6542 /* HomeViewController.swift in Sources */,
 				A4FC5DC22256646B007E6542 /* AppDelegate.swift in Sources */,
+				A4FC5DD822566659007E6542 /* ContainerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
